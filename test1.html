@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> form </title>
+    </head>
+
+    <body>
+        
+        <h1> IWT Workshop </h1>
+        <form action="./list.html"method="post">
+            <fieldset>
+                <legend>Register your interest</legend><br><br>
+                <b><label for="Your name:">Your name:</label></b>
+                <input type="text"><br><br>
+                <b><label for="Your email:"> your email:</label></b>
+                <input type="email"><br><br>
+                <b><label for="Your closest center:">Your closest center:</label></b>
+                <select id="Your closest center">
+                    <option value="Malbe">Malabe</option>
+                    <option value="Kandy">Kandy</option>
+                    <option value="Galle">Galle</option>
+                </select><br><br>
+                <b><label for="Select The Session:">Select The Session:</label><br></b>
+                <input type="checkbox">Interduction to web <br>
+                <input type="checkbox">HTML & CSS <br>
+                <input type="checkbox">Javascript <br>
+                <input type="checkbox">PHP & MYSQL  <br><br>
+                
+                <b><label for="Are You A SLIIT Student?">Are You A SLIIT Student?</label></b>
+                <input type="radio" name="radio" id="option1">
+                <label for="option1" class="option1">
+                    <span>yes</span>
+                </label>
+                <input type="radio" name="radio" id="option2">
+                <label for="option2" class="option2">
+                    <span>no</span>
+                </label><br><br>
+                <input type="submit"value="Register" title="Login" name="login"><br><br>
+            </fieldset>
+        </form>
+    </body>
+</html>
